@@ -1,9 +1,10 @@
 body {
     font-family: Outfit;
     background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
 }
 
-section {
+main {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -11,7 +12,7 @@ section {
     height: 100vh;
 }
 
-article {
+section {
     border: 1px solid hsla(219, 15%, 55%, 0);
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
